@@ -9,7 +9,7 @@ body {
 }
 
 svg {
-  filter: invert(100%);
+  color: #ffffff;
   height: 10rem;
   width: 10rem;
   padding: 0 1rem;
@@ -19,7 +19,6 @@ svg {
 
 div {
   display: inline-block;
-  justify-content: center;
 }
 
 h3 {
@@ -28,7 +27,7 @@ h3 {
 }
 
 .dimensions {
-  float: left;
+  /* float: left; */
   margin: 0 15px;
   width: 230px;
 }
@@ -41,23 +40,62 @@ p {
 }
 
 .aqua {
-  background-color: #8f3f36;
-}
-
-.blue {
-  background-color: #bf8b42;
-}
-
-.red {
   background-color: #70c0c9;
 }
 
-.grey {
-  background-color: #6e6e6e;
+.blue {
+  background-color: #4074bd;
 }
+
+.red {
+  background-color: #e05e46;
+}
+
+.grey {
+  background-color: #919191;
+}
+
 h3 {
   color: #e26252;
   text-align: center;
   word-wrap: break-word;
   word-spacing: 200px;
+}
+
+.number-one,
+.number-two,
+.number-three,
+.number-four {
+  display: inline-block;
+  width: 1rem;
+  padding: 0.7rem;
+  text-align: center;
+  position: absolute;
+  top: 26.1rem;
+  border-radius: 50%;
+}
+.number-one {
+  border: 4px solid #70c0c9;
+  border-radius: 50%;
+  color: #70c0c9;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.number-two {
+  border: 4px solid #4074bd;
+  color: #4074bd;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.number-three {
+  border: 4px solid #e05e46;
+  color: #e05e46;
+  font-weight: bold;
+  background-color: #ffffff;
+}
+.number-four {
+  border: 4px solid #919191;
+  color: #919191;
+  font-weight: bold;
+  background-color: #ffffff;
 }
